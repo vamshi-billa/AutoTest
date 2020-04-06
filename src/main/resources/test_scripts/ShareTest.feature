@@ -1,4 +1,4 @@
-@test
+@test1
 Feature: Share Market
   I want to verify stock prices in Money COntrol and Google
 
