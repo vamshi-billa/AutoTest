@@ -80,7 +80,7 @@ public class ShareTest {
 			logger.error("Failed navigating to money control link");
 			throw e;
 		}
-		for (int i = 1; i <= 1; i++) {
+		for (int i = 1; i <= 5; i++) {
 			Company c = new Company();
 			WebElement globalMarkets = driver.findElement(By.xpath("//h3[@class='tplhead MB5']/a"));
 			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", globalMarkets);

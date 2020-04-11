@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/main/resources/test_scripts", plugin = {"html:target/report.html"}, tags= {"login"})
+@CucumberOptions(features="src/main/resources/test_scripts/OnlineVegetables.feature", plugin = {"html:target/report.html"})
 public class RunTest {
 
 }
