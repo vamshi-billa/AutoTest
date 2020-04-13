@@ -22,7 +22,7 @@ import junit.framework.Assert;
 
 public class MovieSearchTest {
 
-	@Test
+	
 	public void movieSearchTest() {
 
 		try {

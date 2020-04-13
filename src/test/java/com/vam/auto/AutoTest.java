@@ -16,7 +16,7 @@ import org.junit.*;
 import org.junit.Test;
 
 public class AutoTest {
-	@Test
+	
 	public void googleSearchTest() {
 		System.setProperty("webdriver.chrome.driver", "F:\\SOFTWARES\\chromedriver.exe");
 		// Instantiate a ChromeDriver class.
